@@ -7,7 +7,8 @@
  - tulemüür (firewall) 
  - WiFi tugijaam (WiFi access point)
 3. Võrguprotokollid ja nende kasutus (lühidalt):
-- SSH
+- SSH  
+Turvakest (inglise keeles Secure Shell) on krüptograafiline võrguprotokoll turvaliseks võrguteenuste opereerimiseks turvamata võrgu kaudu. Põhiliselt kasutavad seda arvutikasutajad arvutisüsteemidesse kaugsisselogimiseks.
 - telnet 
 - IMAP, POP3, SMTP
 - SNMP
