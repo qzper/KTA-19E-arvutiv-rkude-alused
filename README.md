@@ -35,7 +35,7 @@ Andmesideprotokoll, mis on loodud praegusel ajal üldkasutatava Internetiprotoko
 - TCP 
 Levinuim transpordikihi võrguprotokoll, mida kasutatakse TCP/IP võrkudes. TCP-protokolliga saadetavaid pakette toimetab edasi võrgukihi protokoll, milleks on üldjuhul internetiprotokoll (IP). TCP/IP mudeli järgi on loodud enamik arvutivõrke.  
 - UDP  
-Transpordikihi andmesideprotokoll, mis on defineeritud IPga sõnumit.  
+Transpordikihi andmesideprotokoll, mis on defineeritud IP-ga sõnumite saatmiseks.  
 - ICMP  
 Andmesideprotokoll, mille abil võrguseadmed vahetavad oleku- ja veainformatsiooni.  
 4. Diagnostika vahendid:
