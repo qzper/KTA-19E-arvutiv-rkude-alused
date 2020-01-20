@@ -8,7 +8,6 @@
 - nc *localhost* *pordi_nr* - saab päringuid määratud saatja määratud pordilt
 - ^D - netcat lõpetab ühenduse pordiga
 - ^C - lõpetab päringu
-- > example.txt - salvestab päringu example.txt faili
 - host *hosti_nimi* - gets hosts *alias*'e ja IP-aadressid
 - dig *hosti_nimi* - pärib hosti *alias*'e, CNAME-i, IP-aadressid, millisesse serverisse, millal vastas jms
 - ip addr show - näitab, mis liidesed (ethernet: eth0, wifi: wlan0, loopback: lo) sinu seadmel on
