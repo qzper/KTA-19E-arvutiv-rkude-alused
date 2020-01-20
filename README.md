@@ -1,6 +1,20 @@
 # KTA-19E-arvutiv-rkude-alused
 
 1. ülevaade kursuses kasutatud käsurea programmide ja näidete kohta.
+- ping -c *count* *host_name* - saadab signaali *host*'ini ja ootab vastust
+- printf - prindib päringu
+- netcat - (nc) on arvuti võrgu tarkvara lugemaks või kirjutamaks võrgu ühendustele
+- nc -l *pordi_nr* - netcat kuulab määratud porti
+- nc *localhost* *pordi_nr* - saab päringuid määratud saatja määratud pordilt
+- ^D - netcat lõpetab ühenduse pordiga
+- ^C - lõpetab päringu
+- > example.txt - salvestab päringu example.txt faili
+- host *hosti_nimi* - gets hosts *alias*'e ja IP-aadressid
+- dig *hosti_nimi* - pärib hosti *alias*'e, CNAME-i, IP-aadressid, millisesse serverisse, millal vastas jms
+- ip addr show - näitab, mis liidesed (ethernet: eth0, wifi: wlan0, loopback: lo) sinu seadmel on
+- ip route show default - näitab vaikimisi *gateway*'d
+- sudo tcpdump -n host *hosti_nimi* - lubab kasutajal läbiminevaid ühendusi püüda (minevaid, tulevaid, ning pikkust) 
+- traceroute *hosti_nimi* - näitab ühenduslinke sinu ja määratud hosti vahel
 2. Ülevaade põhilistest võrguseadmetest ja nende ülesannetest:
  - ruuter (router)  
  Seade, mis ühendab omavahel kaht või enamat arvutivõrku, ning võimaldab nendevahelise andmeside.  
