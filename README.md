@@ -1,19 +1,19 @@
 # KTA-19E-arvutiv-rkude-alused
 
 1. ülevaade kursuses kasutatud käsurea programmide ja näidete kohta.
-- `ping -c *count* *host_name*` - saadab signaali *host*'ini ja ootab vastust
-- `printf` - prindib päringu
-- `netcat` - (nc) on arvuti võrgu tarkvara lugemaks või kirjutamaks võrgu ühendustele
-- `nc -l *pordi_nr*` - netcat kuulab määratud porti
-- `nc *localhost* *pordi_nr*` - saab päringuid määratud saatja määratud pordilt
-- `^D` - netcat lõpetab ühenduse pordiga
-- `^C` - lõpetab päringu
-- `host *hosti_nimi*` - gets hosts *alias*'e ja IP-aadressid
-- `dig *hosti_nimi*` - pärib hosti *alias*'e, CNAME-i, IP-aadressid, millisesse serverisse, millal vastas jms
-- `ip addr show` - näitab, mis liidesed (ethernet: eth0, wifi: wlan0, loopback: lo) sinu seadmel on
-- `ip route show default` - näitab vaikimisi *gateway*'d
-- `sudo tcpdump -n host *hosti_nimi*` - lubab kasutajal läbiminevaid ühendusi püüda (minevaid, tulevaid, ning pikkust) 
-- `traceroute *hosti_nimi*` - näitab ühenduslinke sinu ja määratud hosti vahel
+- `ping -c *count* *host_name*` - saadab signaali *host*'ini ja ootab vastust.
+- `printf` - prindib päringu.
+- `netcat` - (nc) on arvuti võrgu tarkvara lugemaks või kirjutamaks võrgu ühendustele.
+- `nc -l *pordi_nr*` - netcat kuulab määratud porti.
+- `nc *localhost* *pordi_nr*` - saab päringuid määratud saatja määratud pordilt.
+- `^D` - netcat lõpetab ühenduse pordiga.
+- `^C` - lõpetab päringu.
+- `host *hosti_nimi*` - gets hosts *alias*'e ja IP-aadressid.
+- `dig *hosti_nimi*` - pärib hosti *alias*'e, CNAME-i, IP-aadressid, millisesse serverisse, millal vastas jms.
+- `ip addr show` - näitab, mis liidesed (ethernet: eth0, wifi: wlan0, loopback: lo) sinu seadmel on.
+- `ip route show default` - näitab vaikimisi *gateway*'d.
+- `sudo tcpdump -n host *hosti_nimi*` - lubab kasutajal läbiminevate ühenduste pakette püüda (minevaid, tulevaid, ning pikkust) .
+- `traceroute *hosti_nimi*` - näitab ühenduslinke sinu ja määratud hosti vahel.
 2. Ülevaade põhilistest võrguseadmetest ja nende ülesannetest:
  - ruuter (router)  
  Seade, mis ühendab omavahel kaht või enamat arvutivõrku, ning võimaldab nendevahelise andmeside.  
@@ -52,10 +52,10 @@ Transpordikihi andmesideprotokoll, mis on defineeritud IP-ga sõnumite saatmisek
 - ICMP  
 Andmesideprotokoll, mille abil võrguseadmed vahetavad oleku- ja veainformatsiooni.  
 4. Diagnostika vahendid:
-- Wireshark
-- tcpdump 
-- ping 
-- traceroute / tracert
-- nslookup / dig
-- Ressource monitor (Windows)
-- netstat 
+- Wireshark - programm võrgu tõrkeotsinguteks, analüüsiks, tarkvara ja kommunikatsiooniprotokollide arendamiseks.
+- tcpdump - läbiminevate ühenduste pakettide püüdmiseks.
+- ping - saadab signaali *host*'ini ja ootab vastust.
+- traceroute / tracert - võrgu tõrkeotsingutute käsurida, mis näitab ära teekonda ning pakettide pikkust võrgus.
+- nslookup / dig - võrguhalduse käsurida DNS päringute tegemiseks domeeninime või IP-aadressi saamiseks.
+- Ressource monitor (Windows) - programm Vistas või uutemates versioonides, mis kuvab teavet riistvara ning tarkvara ressursside reaalajas kasutamise kohta.
+- netstat - võrgu käsurida, mis kuvab TCP võrgu ühendusi (nii sissetulevaid kui väljaminevaid), marsruuti, erinevaid võrguliideseid ning võrguprotokolli statistikat.
